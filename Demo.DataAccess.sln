@@ -1,0 +1,51 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.DataAccess.ConsoleUI", "Demo.DataAccess.ConsoleUI\Demo.DataAccess.ConsoleUI.csproj", "{65A473A3-283B-48C7-BC81-3AAB4B125F72}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.DataAccess.EF", "Demo.DataAccess.EF\Demo.DataAccess.EF.csproj", "{625F5B08-1DC2-46D5-A475-CA7CCCDFA069}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.DataAccess.Core", "Demo.DataAccess.Core\Demo.DataAccess.Core.csproj", "{D755094F-0BBC-46A8-9A29-A22E58BDC6B2}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.DataAccess.Dapper", "Demo.DataAccess.Dapper\Demo.DataAccess.Dapper.csproj", "{C679D725-F491-4FC3-83CA-B558A17CCFF9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Demo.DataAccess.DataService", "Demo.DataAccess.DataService\Demo.DataAccess.DataService.csproj", "{71F499E6-BA7E-4841-9326-FB4DCA6C7285}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{6329A854-9EF1-414B-99C8-910895929ADE}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{65A473A3-283B-48C7-BC81-3AAB4B125F72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{65A473A3-283B-48C7-BC81-3AAB4B125F72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{65A473A3-283B-48C7-BC81-3AAB4B125F72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{65A473A3-283B-48C7-BC81-3AAB4B125F72}.Release|Any CPU.Build.0 = Release|Any CPU
+		{625F5B08-1DC2-46D5-A475-CA7CCCDFA069}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{625F5B08-1DC2-46D5-A475-CA7CCCDFA069}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{625F5B08-1DC2-46D5-A475-CA7CCCDFA069}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{625F5B08-1DC2-46D5-A475-CA7CCCDFA069}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D755094F-0BBC-46A8-9A29-A22E58BDC6B2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D755094F-0BBC-46A8-9A29-A22E58BDC6B2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D755094F-0BBC-46A8-9A29-A22E58BDC6B2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D755094F-0BBC-46A8-9A29-A22E58BDC6B2}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C679D725-F491-4FC3-83CA-B558A17CCFF9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C679D725-F491-4FC3-83CA-B558A17CCFF9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C679D725-F491-4FC3-83CA-B558A17CCFF9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C679D725-F491-4FC3-83CA-B558A17CCFF9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{71F499E6-BA7E-4841-9326-FB4DCA6C7285}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{71F499E6-BA7E-4841-9326-FB4DCA6C7285}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{71F499E6-BA7E-4841-9326-FB4DCA6C7285}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{71F499E6-BA7E-4841-9326-FB4DCA6C7285}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
